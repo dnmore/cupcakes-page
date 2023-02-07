@@ -1,0 +1,96 @@
+#wedding {
+  height: 70rem;
+  background: url("images/wedding.webp");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+#wedding section {
+  background-color: white;
+  width: 25rem;
+  height: 65rem;
+  position: absolute;
+  left: 50rem;
+  margin-top: 3rem;
+  border-radius: 4px;
+ 
+}
+
+#content {
+  text-align: center;
+  margin: 0 2rem;
+}
+
+#wedding h2 {
+  font-family: "Yellowtail", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #b5034a;
+  text-decoration: underline;
+}
+
+#wedding p {
+  font: inherit;
+  font-size: 1rem;
+  color: #b5034a;
+}
+
+#wedding ul {
+  list-style: none;
+}
+
+label {
+  display: block;
+  padding-top: 2rem;
+  color: #b5034a;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  font:inherit;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  border: 1px solid #b5034a;
+  text-align: center;
+  padding: 0.4rem 0.9rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f7cbdd;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #ef8eb5;
+}
+
+#weddingdate {
+  color: #b5034a;
+}
+
+@media (max-width: 48rem) {
+
+    #wedding {
+        width: 50rem;
+    }
+    #wedding section {
+        width: 20rem;
+        height: 65rem;
+        position: absolute;
+        left: 10rem;
+        margin-top: 3rem;
+        border-radius: 4px;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,53 @@
+#box {
+  background-color: #00a7e1;
+  text-align: center;
+}
+
+#box h2 {
+  font-family: "Yellowtail", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: var(--accent--1);
+  text-decoration: underline;
+}
+
+#box ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem 1rem;
+  width: 75rem;
+  list-style: none;
+  padding-bottom: 3rem;
+}
+
+#box li {
+  border: 1px solid var(--accent--1);
+  background-color: var(--primary-2);
+  margin: 1rem auto;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#box p {
+  font: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  color: var(--accent--1);
+}
+
+#box img {
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+}
+
+@media (max-width: 48rem) {
+  #box ul {
+    grid-template-columns: 1fr;
+    gap: 1rem 1rem;
+    width: 35rem;
+  }
+}
